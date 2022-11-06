@@ -1,4 +1,5 @@
 mod csv;
+mod serializable;
 
 use std::path::PathBuf;
 
