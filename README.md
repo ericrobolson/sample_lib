@@ -20,6 +20,7 @@ Each processed file is hashed and stored. Any duplicates are skipped and deleted
 Uses `hound` or `rodio` to play sample files for previewing
 
 # Roadmap
-- [ ] Specify 'sinks' which samples will be pulled from. These are folder paths which will begin a recursive descent and copy over samples that haven't been processed yet. Ideally will use a SHA256 hash to prevent duplicate comparisons.
+- [ ] Specify 'sinks' which samples will be pulled from. These are folder paths which will begin a recursive descent and copy over samples that haven't been processed yet. Ideally will use a hash to prevent duplicate comparisons.
+- [ ] Add in hashing/checksum comparisons of murmur3. Maybe shard the file used for comparisons?
 - [ ] Randomly generate loops
 - [ ] Takes in a loop, then analyzes that loop and generates a new loop like the 'Brain' by Aphex Twin
